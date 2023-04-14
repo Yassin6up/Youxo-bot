@@ -16,7 +16,23 @@ background-repeat: no-repeat;
 height: 100vh;
 color: white;
 text-align: center;
-backdrop-filter:hue-rotate(10deg) blur(2px);
+
+
+
+
+
+background-color: #ffffff;
+
+
+/* 
+  
+*/
+
+
+
+
+
+
 }
 .navbar{
   width: 100%;
@@ -27,6 +43,7 @@ backdrop-filter:hue-rotate(10deg) blur(2px);
   padding: 10px;
   background-color: var(--secondColor);
   box-shadow:  0 0 10px#576CBC;
+  
 }
 .h1{
   width: 50%;
@@ -108,6 +125,7 @@ backdrop-filter:hue-rotate(10deg) blur(2px);
   75%  {box-shadow: 0 0 30px rgb(143, 230, 14) }
   100% {box-shadow: 0 0 40px rgb(154, 243, 21)}
 }
+
 #resultsContainer , #me{
   color: white ;
   font-size: 23px;
@@ -153,7 +171,7 @@ backdrop-filter:hue-rotate(10deg) blur(2px);
 }
 .about p{
   font-size: 17px;
-  text-shadow: 0 0 10px white;
+  text-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
 .leCommond{
